@@ -16,7 +16,7 @@ const WorkWIthUs = () => {
                 </div>
 
                 <div className='md:w-[45%] flex flex-col items-center md:items-start'>
-                    <Image src="/images/bolt.svg" width={30} height={30} />
+                    <Image src="/images/bolt.svg" alt='work-with-us' width={30} height={30} />
                     <h4 className='font-bold md:text-left text-center'>No Surprises: You’ll know the price upfront.</h4>
                     <p className='text-gray-700 md:text-left text-center'>
                         We ensure complete transparency, you'll see the price before we begin. Our commitment is simple—what we quote is what you pay, and only if we deliver exactly as promised.
@@ -24,7 +24,7 @@ const WorkWIthUs = () => {
                 </div>
 
                 <div className='md:w-[45%] flex flex-col items-center md:items-start'>
-                    <Image src="/images/compass.svg" width={30} height={30} />
+                    <Image src="/images/compass.svg" alt='' width={30} height={30} />
                     <h4 className='font-bold md:text-left text-center'>We deliver precisely what you need.</h4>
                     <p className='text-gray-700 md:text-left text-center'>
                         We don’t impose a minimum project size. Instead, we start small, gather valuable feedback, and refine your app based on real customer insights. This ensures accountability and perfectly aligns with your needs.

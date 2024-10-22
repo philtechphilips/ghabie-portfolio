@@ -14,7 +14,7 @@ const Testimonial = () => {
                 <div className='border md:mr-7 mr-2 px-5 py-5 rounded-lg w-[340px] md:w-[400px] md:h-[300px] h-[350px]'>
                     <Link target="_blank" href="https://www.linkedin.com/in/rolandokeke/details/recommendations/?detailScreenTabIndex=1">
                         <div className='flex items-start gap-2'>
-                            <Image src="/images/review-one.jpeg" className='rounded-full' width={50} height={100} alt=''></Image>
+                            <Image src="/images/review-one.jpeg" className='rounded-full' width={50} height={100} alt='testimonial'></Image>
                             <div>
                                 <h4 className='font-semibold'>Steve Boutboul</h4>
                                 <p className='text-sm'>Chief Architect</p>
@@ -28,7 +28,7 @@ const Testimonial = () => {
                 <div className='border md:mr-7 mr-2 px-5 py-5 rounded-lg w-[340px] md:w-[400px] md:h-[300px] h-[350px]'>
                     <Link target="_blank" href="https://www.linkedin.com/in/rolandokeke/details/recommendations/?detailScreenTabIndex=1">
                         <div className='flex items-start gap-2'>
-                            <Image src="/images/review-two.jpeg" className='rounded-full' width={50} height={100} alt=''></Image>
+                            <Image src="/images/review-two.jpeg" className='rounded-full' width={50} height={100} alt='testimonial'></Image>
                             <div>
                                 <h4 className='font-semibold'>Salahi Halil AltıncıSalahi</h4>
                                 <p className='text-sm'>Senior Software Developer at Mathlogic | Full Stack Web Dev, Java</p>
@@ -44,7 +44,7 @@ const Testimonial = () => {
                 <div className='border md:mr-7 mr-2 px-5 py-5 rounded-lg w-[340px] md:w-[400px] md:h-[300px] h-[350px]'>
                     <Link target="_blank" href="https://www.linkedin.com/in/rolandokeke/details/recommendations/?detailScreenTabIndex=1">
                         <div className='flex items-start gap-2'>
-                            <Image src="/images/review-three.jpeg" className='rounded-full' width={50} height={100} alt=''></Image>
+                            <Image src="/images/review-three.jpeg" className='rounded-full' width={50} height={100} alt='testimonial'></Image>
                             <div>
                                 <h4 className='font-semibold'>Habeeb K. Salaudeen PhD</h4>
                                 <p className='text-sm'>Software Engineer | Technical Fellow | AI integration Specialist for Business Solutions.</p>
@@ -60,7 +60,7 @@ const Testimonial = () => {
                 <div className='border md:mr-7 mr-2 px-5 py-5 rounded-lg w-[340px] md:w-[400px] md:h-[300px] h-[350px]'>
                     <Link target="_blank" href="https://www.linkedin.com/in/rolandokeke/details/recommendations/?detailScreenTabIndex=1">
                         <div className='flex items-start gap-2'>
-                            <Image src="/images/review-four.jpeg" className='rounded-full' width={50} height={100} alt=''></Image>
+                            <Image src="/images/review-four.jpeg" className='rounded-full' width={50} height={100} alt='testimonial'></Image>
                             <div>
                                 <h4 className='font-semibold'>Ramazan Bakır</h4>
                                 <p className='text-sm'>Software Developer - Mathlogic Information and Technologies Ltd.</p>
@@ -76,7 +76,7 @@ const Testimonial = () => {
                 <div className='border md:mr-7 mr-2 px-5 py-5 rounded-lg w-[340px] md:w-[400px] md:h-[300px] h-[350px]'>
                     <Link target="_blank" href="https://www.linkedin.com/in/rolandokeke/details/recommendations/?detailScreenTabIndex=1">
                         <div className='flex items-start gap-2'>
-                            <Image src="/images/review-five.jpg" className='rounded-full' width={50} height={100} alt=''></Image>
+                            <Image src="/images/review-five.jpg" className='rounded-full' width={50} height={100} alt='testimonial'></Image>
                             <div>
                                 <h4 className='font-semibold'>Nwabueze U.</h4>
                                 <p className='text-sm'>

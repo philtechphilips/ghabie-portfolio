@@ -1,6 +1,7 @@
 import localFont from "next/font/local";
 import "./globals.css";
 import Script from "next/script";
+const GTM_ID = "AW-16738517830";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -24,22 +25,20 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        {/* Google Tag Manager Script */}
         <Script
-          src="https://www.googletagmanager.com/gtag/js?id=AW-16666726393"
-          strategy="afterInteractive"
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=${GTM_ID}`}
         />
-        <Script
-          id="gtag-initialization"
-          strategy="afterInteractive"
-          dangerouslySetInnerHTML={{
-            __html: `
-              window.dataLayer = window.dataLayer || [];
-              function gtag(){dataLayer.push(arguments);}
-              gtag('js', new Date());
-              gtag('config', 'AW-16666726393');
-            `,
-          }}
-        />
+        <Script id="gtag-init" strategy="afterInteractive">
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', '${GTM_ID}');
+          `}
+        </Script>
+
         <Script
           id="clarity-script"
           strategy="afterInteractive"
