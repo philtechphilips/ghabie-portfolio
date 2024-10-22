@@ -62,10 +62,9 @@ export default function RootLayout({ children }) {
                   }
                 };
                 gtag('event', 'conversion', {
-                    'send_to': 'AW-16666726393/522OCPjy_MgZEPmfqIs-',
+                    'send_to': 'AW-16738517830/oJQvCIup3d0ZEMaGxq0-',
                     'value': 1.0,
                     'currency': 'USD',
-                    'transaction_id': '',
                     'event_callback': callback
                 });
                 return false;
