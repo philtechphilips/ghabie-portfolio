@@ -18,7 +18,7 @@ const Hero = () => {
   const query = Object.fromEntries(searchParams.entries());
 
   return (
-    <div className="w-full max-h-[96vh] py-20 gap-6 flex md:flex-row flex-col items-center md:justify-between justify-center bg-black md:px-24 px-5">
+    <div className="w-full md:max-h-[96vh] h-full py-20 gap-6 flex md:flex-row flex-col items-center md:justify-between justify-center bg-black md:px-24 px-5">
       <div className="md:w-1/2 flex flex-col items-center md:items-start">
         <h1 className="text-white md:text-5xl text-4xl font-bold md:leading-[60px] leading-[50px] md:text-left text-center">
           Affordable, Custom App Development for Entrepreneurs 🚀
